@@ -1,7 +1,7 @@
 name: chfchf0306
 on:
   schedule:
-    - cron: '31 3 * * *'
+    - cron: '1 */6 * * *'
   workflow_dispatch:
   watch:
     types: started
