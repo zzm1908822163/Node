@@ -22,7 +22,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/chfchf0306/jeidian4.18.git"
+          source_repo: "https://github.com/chfchf0306/clash.git"
           source_branch: "main"
           destination_branch: "main"
           github_token: ${{ secrets.PAT }}
